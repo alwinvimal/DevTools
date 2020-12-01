@@ -1,0 +1,18 @@
+git config user.email "ac_vimal@yahoo.com"
+git config user.name "alwinvimal"
+
+
+git add --all
+git commit -am "<commit message>"
+git push
+
+
+Remove added files
+------------------
+git reset
+
+
+Enable Large file support
+-------------------------
+git lfs install
+git lfs track "*.zip"
