@@ -16,3 +16,10 @@ Enable Large file support
 -------------------------
 git lfs install
 git lfs track "*.zip"
+
+
+Update .gitignore and checkin with ignored files
+------------------------------------------------
+git rm -r --cached .
+git add .
+git commit -m "Update gitignore"
